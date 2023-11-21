@@ -6,14 +6,15 @@ public class ActivationLogic : MonoBehaviour
 {
     //This class is for handling the activations of certain events for showcasing different ways to use audio to achieve certain effects.
 
-    public GameObject soundEmitter;
+    public GameObject soundEmitter2d;
+    public GameObject soundEmitter3dSoft;
+    public GameObject soundEmitter3dHard;
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            Debug.Log(soundEmitter.transform.position.z);
-            soundEmitter.transform.position = new Vector3(0,0,-15);
-        }
+    public showcaseState currentState;
+    public enum showcaseState { 
+    inactiveState,
+    nonAttenuation,
+    attenuationSoft,
+    attenuationHard
     }
 }

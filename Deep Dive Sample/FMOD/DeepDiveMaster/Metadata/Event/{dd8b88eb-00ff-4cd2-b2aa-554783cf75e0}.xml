@@ -179,13 +179,13 @@
 			<value>6</value>
 		</property>
 		<property name="frequencyA">
-			<value>13660.4131</value>
+			<value>21999.9902</value>
 		</property>
 		<property name="frequencyB">
-			<value>379.118347</value>
+			<value>371.344147</value>
 		</property>
 		<property name="qualityA">
-			<value>0.288379312</value>
+			<value>0.246517241</value>
 		</property>
 		<property name="qualityB">
 			<value>0.100000001</value>
@@ -216,7 +216,7 @@
 			<value>22000</value>
 		</property>
 		<property name="curveShape">
-			<value>0.332974553</value>
+			<value>0.718259156</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{dcb55791-fbd3-4873-9b92-7a432d727e48}">
