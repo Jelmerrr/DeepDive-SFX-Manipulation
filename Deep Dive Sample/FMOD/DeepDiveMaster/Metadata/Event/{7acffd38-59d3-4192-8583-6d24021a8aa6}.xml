@@ -156,6 +156,7 @@
 		<relationship name="effects">
 			<destination>{1de288e2-5081-4575-9fd4-83bfe0468070}</destination>
 			<destination>{da9660dc-65b5-4e84-af0f-ec8f90d8675d}</destination>
+			<destination>{2d45893f-8531-400c-9a6a-66e6a4d43962}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4ab3230d-86bf-4e60-a75c-088c1e46823c}" />
@@ -175,20 +176,22 @@
 		<property name="filterTypeA">
 			<value>3</value>
 		</property>
-		<property name="filterTypeB">
-			<value>6</value>
-		</property>
 		<property name="frequencyA">
-			<value>13660.4131</value>
+			<value>19029.8379</value>
 		</property>
 		<property name="frequencyB">
 			<value>20.0000019</value>
 		</property>
 		<property name="qualityA">
-			<value>0.288379312</value>
+			<value>0.183724135</value>
 		</property>
 		<property name="qualityB">
-			<value>0.288379312</value>
+			<value>0.351172417</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{2d45893f-8531-400c-9a6a-66e6a4d43962}">
+		<property name="level">
+			<value>0.269999981</value>
 		</property>
 	</object>
 	<object class="Automator" id="{2773fe13-a012-4e19-bcda-b54416a58359}">

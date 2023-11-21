@@ -59,8 +59,8 @@ public class ObjectMovementController : MonoBehaviour
             inAnimation = true;                                     //Update animation status
             currentTime += Time.deltaTime;                          //Update time
             normalizedValue = currentTime / animationDuration;           //Value that is used to calculate speed and progression in animation
-            normalizedValue = Mathf.Sin(normalizedValue * Mathf.PI * 0.5f); //Use a sin wave in order to create a fade out effect
-            targetObject.transform.position = Vector3.Lerp(originalPosition, openPosition, normalizedValue); //Use lerp to move object
+            normalizedValue = Mathf.Cos(normalizedValue * Mathf.PI * 0.5f); //Use a sin wave in order to create a fade out effect
+            targetObject.transform.position = Vector3.Lerp(openPosition, originalPosition, normalizedValue); //Use lerp to move object
             yield return null;                                      //Repeat coroutine
         }
         inAnimation = false;                                        //If animation is finished update status
@@ -73,8 +73,8 @@ public class ObjectMovementController : MonoBehaviour
             inAnimation = true;                                     //Update animation status
             currentTime += Time.deltaTime;                          //Update time
             normalizedValue = currentTime / animationDuration;      //Value that is used to calculate speed and progression in animation
-            normalizedValue = Mathf.Sin(normalizedValue * Mathf.PI * 0.5f); //Use a sin wave in order to create a fade out effect
-            targetObject.transform.position = Vector3.Lerp(openPosition, originalPosition, normalizedValue); //Use lerp to move object
+            normalizedValue = Mathf.Cos(normalizedValue * Mathf.PI * 0.5f); //Use a sin wave in order to create a fade out effect
+            targetObject.transform.position = Vector3.Lerp(originalPosition, openPosition, normalizedValue); //Use lerp to move object
             yield return null;                                      //Repeat coroutine
         }
         inAnimation = false;                                        //If animation is finished update status
