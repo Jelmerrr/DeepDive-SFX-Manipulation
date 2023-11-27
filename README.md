@@ -22,5 +22,5 @@ The effects showcased in this prototype are:
 * The view can be switched from first person to the behind the scenes overview using "C".
 * The player can press "LCtrl" to make the turtle move.
 
-### Research:
-General research related to the topics can be found on the wiki of this repository. The wiki is filled with certain devlogs that cover specific topics showcase as well as more general documentation.
+### Documentation:
+Documentation regarding research and usage can be found on the wiki page of this repository.
