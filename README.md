@@ -18,6 +18,9 @@ The effects showcased in this prototype are:
 * Delay
 
 ### Controls:
-Numbers (1-6) are used to cycle between each different showcase. The effect showcased can be adjusted in real-time without any issues.
-The view can be switched from first person to the behind the scenes overview using "C".
-The player can press "LCtrl" to make the turtle move.
+* Numbers (1-6) are used to cycle between each different showcase. The effect showcased can be adjusted in real-time without any issues.
+* The view can be switched from first person to the behind the scenes overview using "C".
+* The player can press "LCtrl" to make the turtle move.
+
+### Research:
+General research related to the topics can be found on the wiki of this repository. The wiki is filled with certain devlogs that cover specific topics showcase as well as more general documentation.
