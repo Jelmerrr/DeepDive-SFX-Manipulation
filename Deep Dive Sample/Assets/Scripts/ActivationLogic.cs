@@ -8,6 +8,8 @@ public class ActivationLogic : MonoBehaviour
     public GameObject soundEmitter3dSoft;
     public GameObject soundEmitter3dHard;
     public GameObject soundEmitter3dReverb;
+    public GameObject soundemitter3dDelay;
+    public GameObject soundEmitter3dDelayReverb;
     private ObjectMovementController movementController;
 
     public showcaseState currentState;
@@ -16,7 +18,9 @@ public class ActivationLogic : MonoBehaviour
     nonAttenuation,
     attenuationSoft,
     attenuationHard,
-    attenuationReverb
+    attenuationReverb,
+    attenuationDelay,
+    attenuationDelayReverb
     }
 
     private void Start()
@@ -27,13 +31,17 @@ public class ActivationLogic : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+        if(Input.GetKeyDown(KeyCode.Alpha0))
         {
             StateUpdate(showcaseState.inactiveState);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             StateUpdate(showcaseState.nonAttenuation);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            StateUpdate(showcaseState.attenuationHard);
         }
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
@@ -41,11 +49,15 @@ public class ActivationLogic : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            StateUpdate(showcaseState.attenuationHard);
+            StateUpdate(showcaseState.attenuationReverb);
         }
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
-            StateUpdate(showcaseState.attenuationReverb);
+            StateUpdate(showcaseState.attenuationDelay);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            StateUpdate(showcaseState.attenuationDelayReverb);
         }
     }
 
@@ -58,6 +70,8 @@ public class ActivationLogic : MonoBehaviour
             soundEmitter3dSoft.SetActive(currentState == showcaseState.attenuationSoft);
             soundEmitter3dHard.SetActive(currentState == showcaseState.attenuationHard);
             soundEmitter3dReverb.SetActive(currentState == showcaseState.attenuationReverb);
+            soundemitter3dDelay.SetActive(currentState == showcaseState.attenuationDelay);
+            soundEmitter3dDelayReverb.SetActive(currentState == showcaseState.attenuationDelayReverb);
         }
     }
 
@@ -67,5 +81,7 @@ public class ActivationLogic : MonoBehaviour
         soundEmitter3dSoft.SetActive(false);
         soundEmitter3dHard.SetActive(false);
         soundEmitter3dReverb.SetActive(false);
+        soundemitter3dDelay.SetActive(false);
+        soundEmitter3dDelayReverb.SetActive(false);
     }
 }

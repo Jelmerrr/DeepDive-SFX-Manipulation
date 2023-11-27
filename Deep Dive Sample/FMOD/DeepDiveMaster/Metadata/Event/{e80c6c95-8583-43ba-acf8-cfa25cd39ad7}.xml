@@ -194,13 +194,13 @@
 			<value>21999.9902</value>
 		</property>
 		<property name="frequencyB">
-			<value>277.844482</value>
+			<value>20.0000019</value>
 		</property>
 		<property name="qualityA">
 			<value>0.246517241</value>
 		</property>
 		<property name="qualityB">
-			<value>0.1627931</value>
+			<value>0.100000001</value>
 		</property>
 	</object>
 	<object class="Automator" id="{b7277a85-842d-42c4-9e45-b679b9c431ee}">
