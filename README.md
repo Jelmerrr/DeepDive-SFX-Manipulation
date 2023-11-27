@@ -8,7 +8,7 @@ The project has a base sound file and through progressively adding different eff
 Opening the project will give you two different views. One view tries to emulate a first person view for a simple game.
 The second view is a more general overview which showcases some behind the scenes stuff.
 
-In the prototype you can make the turtle walk from one side to the other side of the screen. This ofcouse gives off a sound. However what sound it makes can make for a different experience.
+In the prototype you can make the turtle walk from one side to the other side of the screen. This gives off a sound. However what sound it makes can make for a different experience.
 
 The effects showcased in this prototype are:
 * 3D audio mapping
