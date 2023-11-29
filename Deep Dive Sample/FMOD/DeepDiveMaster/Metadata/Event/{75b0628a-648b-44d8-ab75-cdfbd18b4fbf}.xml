@@ -137,7 +137,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>1.25</value>
+			<value>1.8</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{2867a6f3-bd5b-49ac-bb2a-676745325b3a}</destination>
@@ -176,13 +176,13 @@
 	</object>
 	<object class="DelayEffect" id="{d2b4d4e9-aa1d-43a3-b54f-67c8f2ed73c1}">
 		<property name="delay">
-			<value>480</value>
+			<value>540</value>
 		</property>
 		<property name="feedback">
-			<value>52</value>
+			<value>38</value>
 		</property>
 		<property name="level">
-			<value>-10</value>
+			<value>-15</value>
 		</property>
 		<property name="dryLevel">
 			<value>-9</value>
