@@ -2,6 +2,8 @@
 
 A small showcase about the posible ways to manipulate a single sound file to achieve different feelings and how to implement these effects in FMOD. This prototype highlights different effects that are commonly used to enhance a sound and make it fit more for any given scenario.
 
+![PrototypeScreenshot](https://i.imgur.com/Jo3DeWc.png)
+
 ### How to use:
 This Unity project is a short showcase about use cases related to the manipulation of a single sound effect.
 The project has a base sound file and through progressively adding different effects it shows what these effects can have on the overall feeling it creates.
