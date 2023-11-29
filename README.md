@@ -1,6 +1,6 @@
 # DeepDive-SFX-Manipulation
 
-A showcase of different effects and ways to manipulate a single sound effect in order to achieve different results.
+A small showcase about the posible ways to manipulate a single sound file to achieve different feelings. This prototype highlights different effects that are commonly used to enhance a sound and make it fit more for any given scenario.
 
 ### How to use:
 This Unity project is a short showcase about use cases related to the manipulation of a single sound effect.
