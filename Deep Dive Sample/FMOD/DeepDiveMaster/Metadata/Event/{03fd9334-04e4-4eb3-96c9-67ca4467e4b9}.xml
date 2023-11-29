@@ -137,7 +137,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>1.25</value>
+			<value>1.8</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{6da2e59f-b46f-4f7b-a834-cb140fa513eb}</destination>
@@ -152,7 +152,7 @@
 			<destination>{1c39704d-bbde-4a3a-8190-c4088ed7b116}</destination>
 			<destination>{764a442a-7898-438d-9419-2136f03aadd3}</destination>
 			<destination>{0c7e8d0d-667c-487e-b397-0c169fde5fb8}</destination>
-			<destination>{2ddea892-509d-420a-922b-33ee35cb151e}</destination>
+			<destination>{94d328a9-7e9a-41f8-ac2c-b7b28da9f71f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1eec05f1-77dc-44c3-930f-f9862a14a76d}" />
@@ -192,15 +192,15 @@
 			<value>2</value>
 		</property>
 	</object>
-	<object class="DelayEffect" id="{2ddea892-509d-420a-922b-33ee35cb151e}">
+	<object class="DelayEffect" id="{94d328a9-7e9a-41f8-ac2c-b7b28da9f71f}">
 		<property name="delay">
-			<value>480</value>
+			<value>540</value>
 		</property>
 		<property name="feedback">
-			<value>52</value>
+			<value>38</value>
 		</property>
 		<property name="level">
-			<value>-10</value>
+			<value>-15</value>
 		</property>
 		<property name="dryLevel">
 			<value>-9</value>
